@@ -1,0 +1,62 @@
+ext {
+    compSdkVersion = 32
+    mSdkVersion = 27
+    tarSdkVersion = 32
+
+    def lifecycle_version = "2.4.0"
+    def dagger_version = "2.35.1"
+    def nav_version = "2.4.0-alpha01"
+    def coroutines_android_version = "1.4.3"
+    def kperm_vers = "3.2.1"
+    def serialization_version = "1.2.1"
+    def room_version = "2.4.0"
+    def jodaV = "2.10.14"
+    def ktorVers = "2.0.2"
+
+    // android
+    core_ktx = 'androidx.core:core-ktx:1.7.0'
+    activity_compose = "androidx.activity:activity-compose:1.3.1"
+
+    //test
+    junit =  "junit:junit:4.13.2"
+    android_test = "androidx.test.ext:junit:1.1.3"
+    test_espresso = "androidx.test.espresso:espresso-core:3.4.0"
+
+    // viewModel and liveData
+    lifecycle_runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+    lifecycle_common_java8 = "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+    lifecycle_viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+
+    // dagger 2
+    dagger = "com.google.dagger:dagger:$dagger_version"
+    dagger_android = "com.google.dagger:dagger-android:$dagger_version"
+    dagger_android_support = "com.google.dagger:dagger-android-support:$dagger_version"
+    dagger_android_processor = "com.google.dagger:dagger-android-processor:$dagger_version"
+    dagger_compiler = "com.google.dagger:dagger-compiler:$dagger_version"
+
+    // navigation
+    navigation_compose = ("androidx.navigation:navigation-compose:$nav_version")
+
+    // Coroutines
+    kotlinx_coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_android_version"
+    kotlinx_coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_android_version"
+
+    //Permissions
+    kpermissions = "com.github.fondesa:kpermissions:$kperm_vers"
+    kpermissionsCoroutines = "com.github.fondesa:kpermissions-coroutines:$kperm_vers"
+
+    //serialization
+    serialization = "org.jetbrains.kotlinx:kotlinx-serialization-json:$serialization_version"
+
+    // room
+    room_runtime = "androidx.room:room-runtime:$room_version"
+    room_kapt = "androidx.room:room-compiler:$room_version"
+    room_ktx = "androidx.room:room-ktx:$room_version"
+
+    //joda time
+    joda_time = "joda-time:joda-time:$jodaV"
+
+    //ktor
+    ktor_core = "io.ktor:ktor-server-core:$ktorVers"
+    ktor_netty = "io.ktor:ktor-server-netty:$ktorVers"
+}
