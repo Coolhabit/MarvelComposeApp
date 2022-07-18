@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MarvelComposeApp</string>
+
+    //MainActivityNavigation
+    <string name="home_screen">home</string>
+    <string name="comics_screen">comics</string>
+    <string name="my_avengers_screen">myAvengers</string>
+    <string name="settings_screen">settings</string>
+    <string name="hero_details_screen">heroDetails</string>
+    <string name="comics_details_screen">comicsDetails</string>
+
+    <string name="comics_screen_go_to">Comics Screen -> </string>
+    <string name="hero_screen_go_to">Home Screen -> </string>
+    <string name="my_avengers_screen_go_to">MyAvengers Screen</string>
+    <string name="settings_screen_go_to">Settings Screen</string>
 </resources>
